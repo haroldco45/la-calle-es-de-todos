@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La calle es de todos | Caucasia</title>
+<meta name="description" content="Cerrar la calle para fiestas o reuniones familiares sin permiso está prohibido. Conozca la norma, las multas de 2026 y cómo celebrar sin afectar a los vecinos.">
+<meta name="theme-color" content="#EB0A1E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="La calle es de todos: no la cierre sin permiso">
+<meta property="og:description" content="Fiestas y reuniones en la calle: lo que dice la ley, cuánto cuestan las multas en 2026 y cómo hacerlo bien.">
+<meta property="og:url" content="https://haroldco45.github.io/la-calle-es-de-todos/">
+<meta property="og:image" content="https://haroldco45.github.io/la-calle-es-de-todos/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="La calle es de todos: no la cierre sin permiso">
+<meta name="twitter:description" content="Lo que dice la ley, las multas de 2026 y cómo celebrar sin afectar a los vecinos.">
+<meta name="twitter:image" content="https://haroldco45.github.io/la-calle-es-de-todos/og.jpg">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --ink:#000000; --mute:#58595B; --soft:#F2F2F2; --line:#D8D8D8;
+  --red:#EB0A1E; --red-ink:#FFFFFF; --ok:#1F7A3A; --road:#2B2B2B;
+  --font:"Barlow","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#000;--ink:#FFF;--mute:#A7A9AC;--soft:#161616;--line:#333;--red:#FF2A3C;--ok:#3DBB6A;--road:#1c1c1c}
+}
+:root[data-theme="dark"]{--bg:#000;--ink:#FFF;--mute:#A7A9AC;--soft:#161616;--line:#333;--red:#FF2A3C;--ok:#3DBB6A;--road:#1c1c1c}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;height:60px}
+.mark{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;white-space:nowrap}
+.nav{margin-left:auto;display:flex;gap:26px}
+.nav a{text-decoration:none;font-weight:500;font-size:15px;white-space:nowrap;padding:18px 0;border-bottom:3px solid transparent}
+.nav a:hover{border-bottom-color:var(--red)}
+.cta-s{background:var(--red);color:var(--red-ink);text-decoration:none;font-weight:600;font-size:15px;padding:9px 18px;border-radius:999px;white-space:nowrap}
+@media (max-width:860px){.nav{display:none}.cta-s{margin-left:auto;padding:8px 14px;font-size:14px}.top .wrap{gap:10px;padding:0 16px}.mark{font-size:15px}}
+
+/* portada */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;border-bottom:1px solid var(--line)}
+.hero-copy{padding:80px 56px 64px max(24px, calc((100vw - 1180px)/2 + 24px));display:flex;flex-direction:column;justify-content:center}
+.kicker{color:var(--red);font-weight:600;margin:0 0 18px}
+h1{font-size:clamp(44px,6.6vw,88px);line-height:.96;letter-spacing:-.03em;font-weight:800;margin:0 0 26px}
+h1 em{font-style:normal;color:var(--red)}
+.lede{font-size:clamp(18px,1.6vw,21px);color:var(--mute);max-width:44ch;margin:0 0 34px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{appearance:none;border:2px solid var(--ink);background:transparent;color:var(--ink);font:600 16px/1 var(--font);padding:15px 26px;border-radius:999px;text-decoration:none;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.btn.primary{background:var(--red);border-color:var(--red);color:var(--red-ink)}
+.hero-art{background:var(--road);position:relative;min-height:520px;overflow:hidden}
+.hero-art svg{position:absolute;inset:0;width:100%;height:100%}
+.hero-art .cap{position:absolute;left:20px;right:20px;bottom:18px;color:#fff;font-size:14px;opacity:.85}
+@media (max-width:900px){.hero{grid-template-columns:1fr}.hero-copy{padding:44px 24px 40px}.hero-art{min-height:340px}}
+
+section{padding:96px 0;border-bottom:1px solid var(--line)}
+.sec-head{display:grid;grid-template-columns:300px 1fr;gap:40px;margin-bottom:48px}
+.sec-head h2{font-size:clamp(30px,3.6vw,48px);line-height:1.04;letter-spacing:-.02em;font-weight:800;margin:0}
+.sec-head p{margin:0;color:var(--mute);font-size:19px;max-width:60ch}
+.tag{color:var(--red);font-weight:600;font-size:15px;margin-bottom:10px}
+@media (max-width:760px){section{padding:64px 0}.sec-head{grid-template-columns:1fr;gap:14px;margin-bottom:32px}}
+
+/* quién se afecta */
+.who{display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid var(--ink)}
+.who div{padding:28px 24px 28px 0;border-right:1px solid var(--line)}
+.who div+div{padding-left:24px}
+.who div:last-child{border-right:0}
+.who b{display:block;font-size:44px;line-height:1;font-weight:800;color:var(--red);margin-bottom:14px}
+.who h3{margin:0 0 6px;font-size:20px}
+.who p{margin:0;color:var(--mute)}
+@media (max-width:900px){.who{grid-template-columns:1fr 1fr}.who div,.who div+div{padding:24px 16px 24px 0;border-right:0;border-bottom:1px solid var(--line)}}
+@media (max-width:520px){.who{grid-template-columns:1fr}}
+
+/* quiz */
+.quiz{max-width:760px}
+.q{border-top:2px solid var(--ink);padding:26px 0 8px}
+.q p.st{font-size:22px;font-weight:600;line-height:1.3;margin:0 0 18px}
+.q .opts{display:flex;gap:10px;flex-wrap:wrap}
+.q .opts .btn{min-width:130px}
+.q .ans{display:none;margin:18px 0 10px;padding:16px 18px;border-radius:12px;background:var(--soft)}
+.q .ans.on{display:block}
+.q .ans b{display:block;margin-bottom:4px}
+.q .ans.good b{color:var(--ok)} .q .ans.bad b{color:var(--red)}
+.q .opts .btn[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.score{margin-top:26px;font-size:20px;font-weight:700;min-height:1.5em}
+
+/* multas */
+.fines{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.fine{border:1px solid var(--line);border-radius:18px;padding:30px;display:flex;flex-direction:column}
+.fine .ty{font-weight:600;color:var(--mute);font-size:15px}
+.fine .amt{font-size:clamp(34px,3.4vw,46px);font-weight:800;letter-spacing:-.02em;line-height:1.05;margin:8px 0 14px}
+.fine h3{margin:0 0 8px;font-size:20px;line-height:1.25}
+.fine p{margin:0;color:var(--mute)}
+.fine .law{margin-top:auto;padding-top:18px;font-size:14px;font-weight:600}
+.fine.hot{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fine.hot p,.fine.hot .ty{color:inherit;opacity:.75}
+.fine.hot .amt{color:var(--red)}
+.foot-note{font-size:14px;color:var(--mute);margin-top:22px;max-width:86ch}
+@media (max-width:900px){.fines{grid-template-columns:1fr}}
+
+/* pasos */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:2px solid var(--ink)}
+.steps li{counter-increment:s;padding:26px 20px 26px 0;border-right:1px solid var(--line)}
+.steps li+li{padding-left:20px}
+.steps li:last-child{border-right:0}
+.steps li::before{content:counter(s);display:block;font-size:40px;font-weight:800;color:var(--red);line-height:1;margin-bottom:14px}
+.steps b{display:block;font-size:19px;margin-bottom:6px;line-height:1.25}
+.steps span{color:var(--mute);font-size:16px}
+@media (max-width:1000px){.steps{grid-template-columns:1fr}.steps li,.steps li+li{display:grid;grid-template-columns:60px 1fr;padding:22px 0;border-right:0;border-bottom:1px solid var(--line)}.steps li::before{margin:0}}
+
+/* herramientas */
+.act{background:var(--soft)}
+.panels{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.panel{background:var(--bg);border-radius:18px;padding:30px;display:flex;flex-direction:column}
+.panel h3{margin:0 0 8px;font-size:24px;letter-spacing:-.01em}
+.panel > p{margin:0 0 22px;color:var(--mute)}
+label{display:block;font-weight:600;font-size:14px;margin:0 0 6px}
+input,select,textarea{width:100%;font:16px var(--font);padding:13px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);margin-bottom:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.priv{font-size:12.5px;color:var(--mute);margin:0 0 16px;line-height:1.45}
+.out{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 var(--font);background:var(--soft);border-radius:10px;padding:14px;max-height:260px;overflow:auto;margin:0 0 14px;display:none}
+.out.on{display:block}
+.row2{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}
+.row2 .btn{flex:1 1 auto;white-space:nowrap}
+.call{display:flex;align-items:center;gap:14px;padding:16px 18px;border:2px solid var(--red);border-radius:14px;text-decoration:none;margin-bottom:14px}
+.call b{font-size:30px;font-weight:800;color:var(--red);line-height:1}
+.call span{font-size:15px;color:var(--mute)}
+.panel ol{margin:0 0 18px;padding-left:20px;color:var(--mute)}
+.panel ol li{margin-bottom:8px}
+@media (max-width:1000px){.panels{grid-template-columns:1fr}}
+
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:12px 20px;border-radius:999px;font-weight:600;opacity:0;pointer-events:none;transition:.25s;z-index:20}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+footer{padding:48px 0 60px;font-size:14px;color:var(--mute)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between}
+footer b{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#inicio" aria-label="Inicio">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="15" fill="var(--red)"/><path d="M11 6v18M19 6v18" stroke="#fff" stroke-width="2.2"/><path d="M15 7v3M15 13.5v3M15 20v3" stroke="#fff" stroke-width="2.2"/></svg>
+      La calle es de todos
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#afecta">A quién afecta</a>
+      <a href="#test">Test rápido</a>
+      <a href="#multas">Multas 2026</a>
+      <a href="#bien">Cómo hacerlo bien</a>
+    </nav>
+    <a class="cta-s" href="#herramientas">Pedir permiso</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <div class="hero">
+    <div class="hero-copy">
+      <p class="kicker">Campaña de convivencia, Caucasia</p>
+      <h1>La calle es de todos. <em>No la cierre sin permiso.</em></h1>
+      <p class="lede">Un cumpleaños, un bautizo o la novena en familia son motivo de alegría. Pero cuando se atraviesan carpas, sillas o carros en la vía sin autorización, se le cierra el paso a la ambulancia, al vecino que llega del trabajo y a toda la cuadra.</p>
+      <div class="btns">
+        <a class="btn primary" href="#bien">Cómo celebrar bien</a>
+        <a class="btn" href="#test">Hacer el test</a>
+      </div>
+    </div>
+    <div class="hero-art" role="img" aria-label="Dibujo de una calle vista desde arriba, con una carpa ocupando un lado y un carril libre marcado en rojo para emergencias">
+      <svg viewBox="0 0 500 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect width="500" height="600" fill="#2B2B2B"/>
+        <rect x="0" y="0" width="70" height="600" fill="#3a3a3a"/><rect x="430" y="0" width="70" height="600" fill="#3a3a3a"/>
+        <g stroke="#fff" stroke-width="6" stroke-dasharray="36 30" opacity=".55"><line x1="250" y1="0" x2="250" y2="600"/></g>
+        <g transform="translate(92 150)">
+          <rect width="140" height="190" rx="8" fill="#F2F2F2"/>
+          <path d="M0 0 L70 60 L140 0" fill="none" stroke="#D8D8D8" stroke-width="4"/>
+          <g fill="#58595B"><circle cx="30" cy="110" r="9"/><circle cx="70" cy="110" r="9"/><circle cx="110" cy="110" r="9"/><circle cx="30" cy="155" r="9"/><circle cx="70" cy="155" r="9"/><circle cx="110" cy="155" r="9"/></g>
+        </g>
+        <rect x="262" y="0" width="156" height="600" fill="#EB0A1E" opacity=".22"/>
+        <g fill="#EB0A1E"><path d="M340 420 l-34 50 h22 v70 h24 v-70 h22 z"/><path d="M340 90 l-34 50 h22 v70 h24 v-70 h22 z"/></g>
+        <text x="340" y="320" fill="#fff" font-family="Barlow,Arial,sans-serif" font-weight="700" font-size="22" text-anchor="middle">CARRIL LIBRE</text>
+        <text x="340" y="346" fill="#fff" font-family="Barlow,Arial,sans-serif" font-size="16" text-anchor="middle" opacity=".8">emergencias y vecinos</text>
+      </svg>
+      <div class="cap">Con permiso y un carril libre, la fiesta y la calle caben juntas.</div>
+    </div>
+  </div>
+
+  <section id="afecta">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="tag">A quién afecta</div><h2>Una calle cerrada nunca es solo suya</h2></div>
+        <p>Lo que para una familia es una tarde de celebración, para el resto de la cuadra puede ser una emergencia sin salida.</p>
+      </div>
+      <div class="who">
+        <div><b>01</b><h3>La ambulancia</h3><p>Si alguien de la cuadra se enferma, cada minuto que tarda en pasar puede costar una vida.</p></div>
+        <div><b>02</b><h3>Los bomberos</h3><p>Un carro de bomberos no puede esquivar carpas ni mesas. Un incendio no espera a que se acabe la fiesta.</p></div>
+        <div><b>03</b><h3>El vecino que trabaja</h3><p>El que llega del turno, el mototaxista, la señora que sale a la droguería. Todos tienen derecho a entrar y salir de su casa.</p></div>
+        <div><b>04</b><h3>Los niños y adultos mayores</h3><p>Los desvíos improvisados mandan carros y motos por calles donde nadie los espera.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="test">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="tag">Test rápido</div><h2>¿Sabe lo que dice la ley?</h2></div>
+        <p>Cuatro preguntas. Responda y vea la explicación de cada una.</p>
+      </div>
+      <div class="quiz" id="quiz"></div>
+      <div class="score" id="score" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section id="multas">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="tag">Multas 2026</div><h2>Lo que puede costar la fiesta</h2></div>
+        <p>El Código Nacional de Seguridad y Convivencia Ciudadana (Ley 1801 de 2016) calcula las multas en salarios mínimos diarios. Con el salario mínimo de 2026, así quedan los valores.</p>
+      </div>
+      <div class="fines">
+        <article class="fine">
+          <div class="ty">Multa general tipo 1</div>
+          <div class="amt">$233.454</div>
+          <h3>Ocupar la calle sin cumplir la norma</h3>
+          <p>Poner carpas, sillas, mesas, equipos de sonido o carros atravesados en la vía sin autorización.</p>
+          <div class="law">Ley 1801, art. 140, numeral 4</div>
+        </article>
+        <article class="fine hot">
+          <div class="ty">Multa general tipo 3</div>
+          <div class="amt">$933.816</div>
+          <h3>Ruido de fiestas que molesta al vecindario</h3>
+          <p>La Policía puede además apagar el equipo de sonido si el dueño se niega a hacerlo.</p>
+          <div class="law">Ley 1801, art. 33, numeral 1, literal a</div>
+        </article>
+        <article class="fine">
+          <div class="ty">Multa general tipo 4</div>
+          <div class="amt">$1.867.632</div>
+          <h3>Promover o facilitar la ocupación indebida</h3>
+          <p>Aplica a quien organiza o facilita el uso de la calle en contra de las normas. Además se pueden retirar los bienes.</p>
+          <div class="law">Ley 1801, art. 140, numeral 6</div>
+        </article>
+      </div>
+      <p class="foot-note">Valores calculados con el salario mínimo de 2026 ($1.750.905 mensual), redondeados al peso. Si alguien ocupa la calle dos veces o más, además de la multa se le pueden decomisar o destruir los elementos con que la ocupó (art. 140, parágrafo 3). Esta página es informativa y no reemplaza la orientación de la Policía o de un abogado.</p>
+    </div>
+  </section>
+
+  <section id="bien">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="tag">Cómo hacerlo bien</div><h2>Celebrar sí, atropellar no</h2></div>
+        <p>No se trata de prohibir las fiestas. Se trata de hacerlas con permiso y con respeto por quienes viven en la misma cuadra.</p>
+      </div>
+      <ol class="steps">
+        <li><div><b>Pida permiso con tiempo</b><span>Solicítelo por escrito en la Alcaldía de Caucasia varios días antes. Pregunte qué dependencia lo tramita.</span></div></li>
+        <li><div><b>Avise a los vecinos</b><span>Dígales qué día, a qué hora empieza y a qué hora termina. Un aviso a tiempo evita peleas.</span></div></li>
+        <li><div><b>Deje un carril libre</b><span>Nunca bloquee toda la vía. Ambulancias, bomberos y vecinos deben poder pasar siempre.</span></div></li>
+        <li><div><b>Cuide el volumen</b><span>Música que se disfrute en la fiesta, no en toda la cuadra. Y respete la hora acordada.</span></div></li>
+        <li><div><b>Deje la calle limpia</b><span>Recoja basura, carpas y sillas apenas termine. La calle debe quedar como la encontró.</span></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="herramientas" class="act">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="tag">Herramientas</div><h2>Hágalo fácil</h2></div>
+        <p>Arme en un minuto la solicitud de permiso y el aviso para sus vecinos. Y si le cerraron la calle, sepa qué hacer.</p>
+      </div>
+      <div class="panels">
+        <div class="panel">
+          <h3>Solicitud de permiso</h3>
+          <p>Llene los datos y obtenga la carta lista para radicar en la Alcaldía.</p>
+          <label for="sNombre">Nombre completo</label><input id="sNombre" autocomplete="name">
+          <label for="sCC">Cédula</label><input id="sCC" inputmode="numeric">
+          <label for="sDir">Dirección del evento y barrio</label><input id="sDir" autocomplete="street-address">
+          <label for="sTipo">Tipo de evento</label>
+          <select id="sTipo"><option>Reunión familiar</option><option>Cumpleaños</option><option>Celebración religiosa o novena</option><option>Actividad comunitaria</option><option>Otro</option></select>
+          <div class="two">
+            <div><label for="sFecha">Fecha</label><input id="sFecha" type="date"></div>
+            <div><label for="sTel">Celular</label><input id="sTel" inputmode="tel" autocomplete="tel"></div>
+          </div>
+          <div class="two">
+            <div><label for="sIni">Hora inicio</label><input id="sIni" type="time" value="16:00"></div>
+            <div><label for="sFin">Hora fin</label><input id="sFin" type="time" value="22:00"></div>
+          </div>
+          <p class="priv">Sus datos solo se usan para armar el texto en su propio teléfono. No se guardan ni se envían a ningún lado.</p>
+          <pre class="out" id="sOut"></pre>
+          <div class="row2"><button class="btn primary" id="bSol" type="button">Armar solicitud</button><button class="btn" id="bSolCopy" type="button" hidden>Copiar</button></div>
+        </div>
+        <div class="panel">
+          <h3>Aviso a los vecinos</h3>
+          <p>Un mensaje amable para el grupo de WhatsApp de la cuadra. Use los mismos datos de la solicitud.</p>
+          <label for="aPermiso">Número o fecha del permiso (si ya lo tiene)</label><input id="aPermiso" placeholder="Ej.: Radicado 2026-1234">
+          <label for="aNota">Nota para los vecinos (opcional)</label><textarea id="aNota" rows="3" placeholder="Ej.: Dejaremos libre el carril del lado de la tienda."></textarea>
+          <pre class="out" id="aOut"></pre>
+          <div class="row2"><button class="btn primary" id="bAviso" type="button">Armar aviso</button><button class="btn" id="bAvisoWA" type="button" hidden>Enviar por WhatsApp</button></div>
+        </div>
+        <div class="panel">
+          <h3>Si le cerraron la calle</h3>
+          <p>Primero el diálogo. Si no funciona, la autoridad.</p>
+          <ol>
+            <li>Hable con calma con quien organiza. Pida que dejen un carril libre y bajen el volumen.</li>
+            <li>Si hay una emergencia o no hay acuerdo, llame a la Policía.</li>
+            <li>Tome fotos o video desde su casa, sin confrontar a nadie.</li>
+            <li>Si se repite, presente una queja ante la Inspección de Policía de Caucasia.</li>
+          </ol>
+          <a class="call" href="tel:123"><b>123</b><span>Línea de emergencias y Policía, gratis desde cualquier celular</span></a>
+          <div class="row2"><button class="btn" id="bShare" type="button">Compartir esta campaña</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>La calle es de todos</b><br>Campaña ciudadana de convivencia. Caucasia, Antioquia.</div>
+    <div>Desarrollada por <b>Vibras Positivas HM</b> — Derechos de Autor Reservados</div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var URL_PAG="https://haroldco45.github.io/la-calle-es-de-todos/";
+  var $=function(id){return document.getElementById(id)};
+  function toast(t){var e=$("toast");e.textContent=t;e.classList.add("on");clearTimeout(e._t);e._t=setTimeout(function(){e.classList.remove("on")},2400)}
+  function copy(txt,msg){
+    function fb(){var t=document.createElement("textarea");t.value=txt;document.body.appendChild(t);t.select();try{document.execCommand("copy");toast(msg)}catch(e){toast("Seleccione el texto y cópielo a mano")}t.remove()}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){toast(msg)},fb)}else fb();
+  }
+  function wa(txt){window.open("https://wa.me/?text="+encodeURIComponent(txt),"_blank","noopener")}
+  function hoy(){try{return new Intl.DateTimeFormat("es-CO",{timeZone:"America/Bogota",day:"numeric",month:"long",year:"numeric"}).format(new Date())}catch(e){return new Date().toLocaleDateString("es-CO")}}
+  function fechaLarga(v){if(!v)return "__________";var p=v.split("-");var d=new Date(Date.UTC(+p[0],+p[1]-1,+p[2],12));try{return new Intl.DateTimeFormat("es-CO",{timeZone:"America/Bogota",weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(d)}catch(e){return v}}
+  function hora(v){if(!v)return "__:__";var h=+v.split(":")[0],m=v.split(":")[1];var s=h>=12?"p. m.":"a. m.";h=h%12||12;return h+":"+m+" "+s}
+
+  // Test
+  var Q=[
+    {t:"Si es una fiesta familiar pequeña, no necesito permiso para cerrar la calle.",r:false,e:"La calle es espacio público sin importar el tamaño de la fiesta. Ocuparla sin cumplir la norma es un comportamiento contrario a la convivencia (Ley 1801, art. 140, num. 4)."},
+    {t:"La Policía puede apagar el equipo de sonido si la fiesta molesta a los vecinos.",r:true,e:"Sí. Si el residente se niega a bajarlo, la Policía puede desactivar temporalmente la fuente del ruido, y además cabe una multa tipo 3 (art. 33)."},
+    {t:"Si todos los vecinos de la cuadra están de acuerdo, ya no necesito permiso.",r:false,e:"El acuerdo con los vecinos ayuda mucho, pero no reemplaza la autorización de la autoridad. La vía también la usan personas que no viven en la cuadra."},
+    {t:"Si vuelvo a ocupar la calle, me pueden decomisar carpas, sillas o equipos.",r:true,e:"Sí. Cuando la ocupación indebida se repite dos veces o más, además de la multa se puede decomisar o destruir lo que se usó (art. 140, parágrafo 3)."}
+  ];
+  var ok=0, done=0, box=$("quiz");
+  Q.forEach(function(q,i){
+    var d=document.createElement("div");d.className="q";
+    d.innerHTML='<p class="st">'+(i+1)+'. '+q.t+'</p><div class="opts"><button class="btn" type="button" data-v="1" aria-pressed="false">Verdadero</button><button class="btn" type="button" data-v="0" aria-pressed="false">Falso</button></div><div class="ans"></div>';
+    box.appendChild(d);
+    d.querySelectorAll("button").forEach(function(b){b.onclick=function(){
+      if(d.dataset.done)return; d.dataset.done=1; b.setAttribute("aria-pressed","true");
+      var v=b.dataset.v==="1", good=v===q.r; if(good)ok++; done++;
+      var a=d.querySelector(".ans"); a.className="ans on "+(good?"good":"bad");
+      a.innerHTML="<b>"+(good?"¡Correcto!":"No es así.")+" Es "+(q.r?"verdadero":"falso")+".</b>"+q.e;
+      if(done===Q.length){$("score").textContent="Acertó "+ok+" de "+Q.length+". "+(ok===Q.length?"¡Usted sí sabe convivir en la calle!":"Compártalo para que más vecinos lo aprendan.")}
+    }});
+  });
+
+  // Solicitud
+  var sol="";
+  function datos(){return{n:$("sNombre").value.trim(),c:$("sCC").value.trim(),d:$("sDir").value.trim(),t:$("sTipo").value,f:$("sFecha").value,i:$("sIni").value,fi:$("sFin").value,tel:$("sTel").value.trim()}}
+  $("bSol").onclick=function(){
+    var x=datos(); if(!x.n||!x.c||!x.d){toast("Faltan nombre, cédula o dirección");return}
+    sol="Caucasia, "+hoy()+"\n\nSeñores\nALCALDÍA MUNICIPAL DE CAUCASIA\nCaucasia, Antioquia\n\n"+
+    "Asunto: Solicitud de permiso para uso temporal del espacio público\n\n"+
+    "Yo, "+x.n+", identificado(a) con cédula de ciudadanía No. "+x.c+", respetuosamente solicito autorización para el uso temporal de la vía frente a "+x.d+", con el fin de realizar un evento de tipo: "+x.t.toLowerCase()+".\n\n"+
+    "Fecha: "+fechaLarga(x.f)+"\nHorario: de "+hora(x.i)+" a "+hora(x.fi)+"\n\n"+
+    "Me comprometo a:\n1. Dejar un carril libre para el paso de vehículos de emergencia y de los vecinos.\n2. Mantener un volumen de sonido que no perturbe la tranquilidad del vecindario.\n3. Avisar con anticipación a los vecinos de la cuadra.\n4. Retirar todos los elementos y dejar la vía limpia al terminar.\n5. Acatar las indicaciones de la autoridad de tránsito y de Policía.\n\n"+
+    "Recibiré respuesta en el celular "+(x.tel||"__________")+" o en la dirección indicada.\n\nAtentamente,\n\n\n______________________________\n"+x.n+"\nC.C. "+x.c;
+    $("sOut").textContent=sol;$("sOut").classList.add("on");$("bSolCopy").hidden=false;toast("Solicitud lista");
+  };
+  $("bSolCopy").onclick=function(){copy(sol,"Solicitud copiada")};
+
+  // Aviso
+  var av="";
+  $("bAviso").onclick=function(){
+    var x=datos(), p=$("aPermiso").value.trim(), nt=$("aNota").value.trim();
+    if(!x.f||!x.d){toast("Llene al menos la dirección y la fecha en la solicitud");$("sDir").focus();return}
+    av="Hola, vecinos 👋\n\nLes cuento que el "+fechaLarga(x.f)+" tendremos un(a) "+x.t.toLowerCase()+" frente a "+x.d+", de "+hora(x.i)+" a "+hora(x.fi)+".\n\n"+
+    (p?"✅ Contamos con permiso de la Alcaldía ("+p+").\n":"📝 Ya solicitamos el permiso a la Alcaldía.\n")+
+    "🚑 Dejaremos un carril libre para emergencias y para que todos puedan entrar y salir.\n🔈 Cuidaremos el volumen y terminaremos a la hora.\n🧹 Dejaremos la calle limpia.\n"+
+    (nt?"\n"+nt+"\n":"")+"\nCualquier cosa, me escriben"+(x.tel?" al "+x.tel:"")+". ¡Gracias por su comprensión!"+(x.n?"\n\n"+x.n:"");
+    $("aOut").textContent=av;$("aOut").classList.add("on");$("bAvisoWA").hidden=false;toast("Aviso listo");
+  };
+  $("bAvisoWA").onclick=function(){wa(av)};
+
+  $("bShare").onclick=function(){wa("🚧 LA CALLE ES DE TODOS\n\nCerrar la calle para fiestas o reuniones sin permiso le quita el paso a ambulancias, bomberos y vecinos. Además tiene multas desde $233.454 hasta $1.867.632 en 2026.\n\nConozca la norma, haga el test y aprenda a celebrar bien:\n"+URL_PAG)};
+})();
+</script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script>
+</body>
+</html>
